@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - LaxyDev64</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <img src="lax_pfp.png" alt="Foto de perfil de LaxyDev64" class="profile-pic" />
+      <h2>¡Hola! Soy <span>LaxyDev64</span></h2>
+      <p>
+         Desarrollador novato apasionado por crear experiencias digitales modernas,  
+        funcionales y con estilo. Me encanta transformar ideas en interfaces limpias  
+        y efectivas que transmiten profesionalidad y creatividad.
+      </p>
+      <a href="#contact" class="btn">Contáctame</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy un desarrollador con una gran curiosidad por aprender y mejorar cada día.  
+       Me gusta combinar diseño limpio, código bien estructurado y una experiencia  
+      de usuario fluida.  
+      Me esfuerzo por crear sitios rápidos , adaptables  y visualmente atractivos ,  
+      cuidando cada detalle para que cada proyecto tenga un toque único.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+      <div class="skill"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+      <div class="skill"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+      <div class="skill"><i class="devicon-python-plain colored"></i><p>Python</p></div>
+      <div class="skill"><i class="devicon-c++-plain colored"></i><p>C++</p></div>
+      <div class="skill"><i class="devicon-c#-plain colored"></i><p>C#</p></div>
+      <div class="skill"><i class="devicon-lua-plain colored"></i><p>Lua</p></div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Proyectos</h2>
+
+    <div class="highlight-project">
+      <img src="logo.png" alt="Web personal en desarrollo" />
+      <div class="highlight-info">
+        <h3>Mi Web Personal</h3>
+        <p>
+          Actualmente estoy desarrollando mi propia web, un proyecto que refleja mi enfoque profesional en el diseño y la programación.
+          Está construida con HTML, CSS y JavaScript, priorizando la accesibilidad, el rendimiento y un diseño moderno.
+        </p>
+        <ul class="tech-list">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>????</li>
+        </ul>
+        <a href="#" class="btn">Ver proyecto</a>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Cuphead CDV</h3>
+        <p>
+          un juego usando el motor booty5 cancelado por andrewdev y continuado por LaxyDev64
+        </p>
+        <a href="https://github.com/LaxyDev64/Cuphead-CDV" class="btn">Ver código</a>
+      </div>
+
+      <div class="project-card">
+        <h3>?????</h3>
+        <p>
+          coming soon...
+        </p>
+        <a href="#" class="btn">????</a>
+      </div>
+
+      <div class="project-card">
+        <h3>????</h3>
+        <p>
+          coming soon...
+        </p>
+        <a href="#" class="btn">????</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <div class="contact-card">
+      <p>
+        ¿Tienes una idea o proyecto en mente? Estoy disponible para colaborar en el desarrollo de sitios web modernos y optimizados.
+      </p>
+      <a href="mailto:alexcortell45@gmail.com" class="contact-btn">
+        <i class="fa-solid fa-paper-plane"></i> Envíame un mensaje
+      </a>
+      <p class="social-text">
+        También puedes encontrarme en
+        <a href="https://github.com/LaxyDev64" target="_blank">GitHub</a>.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025-2026 LaxyDev64. Todos los derechos reservados.
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const themeIcon = document.getElementById('theme-icon');
+
+    themeToggle?.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
