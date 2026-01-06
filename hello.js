@@ -5,3 +5,5 @@
 func main() {
     mostrar("Locurote tio")
 }
+
+//end for the script 
