@@ -91,6 +91,6 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📄 License
+## License
 
 This project is open source. You are free to use, modify, and distribute it.
